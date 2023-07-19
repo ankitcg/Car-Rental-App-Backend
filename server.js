@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const config = require('config');
 const connectToDb = require('./db');
 const userRoute = require('./route/user');
 const authRoute = require('./route/auth');
